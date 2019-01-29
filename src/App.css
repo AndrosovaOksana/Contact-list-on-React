@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to top right, #000 75%, #fff) fixed;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  height: 80px;
+  background-color: #fff;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Noto Serif', serif;
+  font-size: 40px;
+  letter-spacing: 1.1px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+}
+
+h2.titleModal {
+  color: #000 !important;
+  font-family: 'Noto Serif', serif;
+}
+
+.saveModalButton {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  text-align: center;
+  height: 30px;
+  width: 160px;
+}
+
+.saveModalButton:active {
+  top: 3px;
+  border-style: inset;
+  border-color: aliceblue;
+}
+
+.modalForm {
+  margin-bottom: 10px;
+  font-family: 'Noto Serif', serif;
+}
+
+.modalForm>input {
+  margin-left: 8px;
+  border-style: ridge;
+}
+
+.modalForm>input:focus {
+  border: 1px solid #000;
+}
+
+.showContact {
+  list-style: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 28px;
+  position: absolute;
+}
+
+.showContact li {
+  border-radius: 67px;
+  margin: 37px 0 30px 0;
+  background-color: #fff;
+  width: 400px;
+  height: 185px;
+  text-align: center;
+}
+
+.showContact li p {
+  font-family: 'Noto Serif', serif;
+}
+
+.titleContact {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: larger;
+}
+
+.closeButton {
+  background-color: #fff;
+  border: none;
+  position: relative;
+  top: -43px;
+  left: 156px;
+}
+
+.closeButton:focus {
+  transform: rotateZ(-40deg);
+}
+
+.far {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.infoContact {
+  position: absolute;
+  left: 176px;
+  top: 19px;
+}
+
+.imgContact {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  border: 1px solid #000;
+  position: absolute;
+  left: 47px;
+  top: 57px;
+}
